@@ -23,13 +23,65 @@
   justify-content: center;
 }
 
+.InfoBox {
+  position: absolute;
+  width: 421px;
+  height: 47px;
+  left: 41px;
+  top: 23px;
+  text-align: left;
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 60px;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+  text-shadow: 2px 2px 8px #DCBD9E;
+}
+
+.ByDB {
+  position: absolute;
+  width: 402px;
+  height: 47px;
+  left: 21px;
+  top: 84px;
+
+  font-family: Source Sans Pro;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 35px;
+  text-align: right;
+
+  color: #DCBD9E;
+}
+
+.TwentyTwenty {
+  position: absolute;
+  width: 131px;
+  height: 75px;
+  left: 41px;
+  top: 71px;
+
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 75px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: #FFFFFF;
+  text-shadow: 2px 2px 8px #DCBD9E;
+}
+
 .Title {
   font-family: Clearface Black SSi;
   font-style: normal;
   font-weight: bold;
   font-size: 100px;
   line-height: 140px;
-  text-align: center;
+  text-align: left;
   color: #FFFFFF;
 }
 
