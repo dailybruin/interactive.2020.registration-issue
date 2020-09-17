@@ -97,3 +97,31 @@
     transform: rotate(360deg);
   }
 }
+
+@media only screen and (max-width: 600px) {
+  .InfoBox {
+    font-size: 28px;
+    width: 421px;
+    height: 30px;
+    left: 41px;
+    top: 23px;
+  }
+  .ByDB {
+    font-size: 20px;
+    width: 280px;
+    height: 47px;
+    left: 21px;
+    top: 75px;
+  }
+  .TwentyTwenty {
+    font-size: 35px;
+    width: 131px;
+    height: 60px;
+    left: 41px;
+    top: 60px;
+  }
+  .Title {
+    font-size: 80px;
+    line-height: 90px;
+  }
+}
