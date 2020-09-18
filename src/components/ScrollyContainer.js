@@ -1,11 +1,9 @@
 import React from 'react';
-import ReactDOM from 'react-dom'
 import '../App.css';
 
+let d_string = "M380.232 17.2907C408.331 72.9908 798.5 306.5 643.5 437C489.056 567.032 -147 628 82.5 831C350.08 1067.68 798.5 1068.5 725 1253C690.342 1340 422.5 1368 422.5 1368"
 let paths = document.createElementNS('http://www.w3.org/2000/svg', 'path');
-paths.setAttribute('d','M' + 2.5 + ',' + 1 + 'L' + 9.5 + ',' + 1596)
-paths.setAttribute('stroke', "#568CBA")
-paths.setAttribute('strokeWidth', 5);
+paths.setAttribute('d', d_string)
 let pathLength = paths.getTotalLength(); 
 paths.style.strokeDasharray = pathLength + ' ' + pathLength;
 paths.style.strokeDashoffset = pathLength;
@@ -26,7 +24,7 @@ class ScrollyContainer extends React.Component {
         var scrollPercentage = (document.documentElement.scrollTop + document.body.scrollTop) / (document.documentElement.scrollHeight - document.documentElement.clientHeight);
                 
         // Length to offset the dashes
-        var drawLength = pathLength * (scrollPercentage - 0.03);
+        var drawLength = pathLength * (scrollPercentage - 0.1);
 
         // Draw in reverse
         paths.style.strokeDashoffset = pathLength - drawLength;
@@ -49,9 +47,9 @@ class ScrollyContainer extends React.Component {
       render() {
         const { strokeDasharray, strokeDashoffset }= this.state; 
         return (
-            <div onScroll={this.handleScroll}>
-                <svg id="Scrolly" width="12" height="1596" viewBox="0 0 12 1596" fill="none" xmlns="http://www.w3.org/2000/svg">
-                     <path strokeDasharray={strokeDasharray} strokeDashoffset={strokeDashoffset} strokeWidth="5" stroke="#568CBA" d="M2.5, 1 L9.5, 1596"></path>
+            <div onScroll={this.handleScroll} style={{position: "absolute", zIndex: -1, left: "30%"}}>
+                <svg id="Scrolly" width="797" height="1373" viewBox="0 0 797 1373" fill="none" xmlns="http://www.w3.org/2000/svg">
+                     <path strokeDasharray={strokeDasharray} strokeDashoffset={strokeDashoffset} strokeWidth="3" stroke="#568CBA"  d={d_string}/>
                 </svg>
             </div>
         );
