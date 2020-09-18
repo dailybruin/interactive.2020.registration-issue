@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import Landing from "./components/Landing.js"
+import ScrollyContainer from "./components/ScrollyContainer.js"
 
 function App() {
   return (
@@ -9,7 +10,12 @@ function App() {
         <Landing />
       </header>
       <p>
-        hello here's some stuff under the landing
+          hello here's some stuff under the landing
+      </p>
+      <ScrollyContainer>
+      </ScrollyContainer>
+      <p>
+          here's some stuff under the landing
       </p>
     </div>
   );
