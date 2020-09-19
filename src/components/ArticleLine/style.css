@@ -1,28 +1,38 @@
 
 /** ArticleLine.js **/
 
-.article-container{
-	display: flex;
-	overflow: scroll;
-	
-}
+
 
 .article-line {
+	margin-top: 30px; /* This value should be -y where y is transform: translate(0, y) in .article-container*/
 	background-color: #EDD6C6;
 	left: 25%;
 	position: relative;
 	min-width: 75%; /* should be 100% - left: 25%;*/
 	max-width: 75%; /* */
+	border: 5px solid #DCBD9E;
+}
+
+.article-container{
+	display: flex;
+	overflow: scroll;
+	transform: translate(0px, -30px);
+	
 }
 
 .article-card-1 {
 	min-width: 250px;
-	margin-bottom: 1em;
-	margin-right: 2%;
+	margin-left: 20px;
+	background: white;
+	border-radius: 10px; /* If you change this, change border-radius in article-ad-card-image-1 and article-card-img-1*/
 }
 
 .article-read-more {
 	color: #DCBD9E;
+}
+
+.article-text{
+	margin-left: 10px;
 }
 
 
@@ -34,6 +44,7 @@
 	object-fit: cover;
 	height: 100%; 
 	box-sizing: border-box;
+	border-radius: 10px 10px 0 0;
 }
 
 
@@ -58,6 +69,7 @@
 	object-fit: cover;
 	width: 100%;
 	height: 100%; 
+	border-radius: 10px 10px 0 0;
 }
 
 

@@ -30,8 +30,10 @@ function ArticleCard(props) {
        </a>
       </div>
     </div>
-    <div className="article-card-author"> {props.author} </div>
-  <p className="article-card-description"> {props.description} </p>  
+    <div className="article-text">
+    <div className="article-card-author"> by {props.author} </div>
+     <p className="article-card-description"> {props.title} </p>  
+    </div>
   </div>
   )
 }

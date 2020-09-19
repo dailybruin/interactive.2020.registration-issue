@@ -1,6 +1,5 @@
 import React, { useMemo } from "react";
 import ArticleCard from "./ArticleCard";
-import FillerCard from "./FillerCard";
 import AdCard from "./AdCard";
 
 /**
@@ -39,7 +38,7 @@ function ArticleGrid(props) {
               key={index}
               img={x.img}
               author={x.author}
-              description={x.description}
+              title={x.title}
               link={x.link}
             />
           );
@@ -55,6 +54,7 @@ function ArticleGrid(props) {
         return <h1>Incorrect Type of Content</h1>;
       })}
     </div>
+  {/*TODO: this isn't working right*/}
     <span className="article-read-more">Read more </span>
     </div>
   );
