@@ -17,22 +17,26 @@
 	display: flex;
 	overflow: scroll;
 	transform: translate(0px, -30px);
+	padding-left: 20px;
 	
 }
 
 .article-card-1 {
-	min-width: 250px;
-	margin-left: 20px;
+	min-width: 350px;
+	margin-left: 30px;
 	background: white;
 	border-radius: 10px; /* If you change this, change border-radius in article-ad-card-image-1 and article-card-img-1*/
 }
 
 .article-read-more {
 	color: #DCBD9E;
+	left: 40%;
+	position: relative;
 }
 
 .article-text{
 	margin-left: 10px;
+
 }
 
 
@@ -49,17 +53,24 @@
 
 
 .article-card-author{
-	color: #84A1B6;
+	color: #80ADD6;
+	font-family: Source Sans Pro;
 	font-style: normal;
-	font-weight: bold;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 20px;
 	margin-top: 10px;
 	text-transform: uppercase;
 	text-align: left;
 }
 
-.article-card-description{
+.article-card-title{
 	text-align: left;
-	color: black;
+	font-family: Source Sans Pro;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 25px;
 }
 
 /** Ad specific*/
@@ -102,7 +113,7 @@
 
    .three-by-two.aspect-ratio { padding-bottom: 66.666% }
   .four-by-three.aspect-ratio { padding-bottom: 75% }
-.sixteen-by-nine.aspect-ratio { padding-bottom: 56.25% }
+.sixteen-by-nine-aspect-ratio { padding-bottom: 56.25% }
 .three-eighty-by-three-twenty-ratio {padding-bottom: 84.2%}
 
 .content {

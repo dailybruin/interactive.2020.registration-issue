@@ -23,7 +23,7 @@ function ArticleCard(props) {
   return (
     <div className={`article-card-${width}`}>
      <div class={`wrapper-${width}`}>
-      <div class="three-eighty-by-three-twenty-ratio"></div>
+      <div class="sixteen-by-nine-aspect-ratio"></div>
       <div class="content">
         <a href={props.link} >
         <img className={`article-card-img-${width}`} src={props.img} alt="Article" />
@@ -32,7 +32,7 @@ function ArticleCard(props) {
     </div>
     <div className="article-text">
     <div className="article-card-author"> by {props.author} </div>
-     <p className="article-card-description"> {props.title} </p>  
+     <p className="article-card-title"> {props.title} </p>  
     </div>
   </div>
   )
