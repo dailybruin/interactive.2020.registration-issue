@@ -1,0 +1,104 @@
+
+/** ArticleLine.js **/
+
+.article-container{
+	display: flex;
+	overflow: scroll;
+	
+}
+
+.article-line {
+	background-color: #EDD6C6;
+	left: 25%;
+	position: relative;
+	min-width: 75%; /* should be 100% - left: 25%;*/
+	max-width: 75%; /* */
+}
+
+.article-card-1 {
+	min-width: 250px;
+	margin-bottom: 1em;
+	margin-right: 2%;
+}
+
+.article-read-more {
+	color: #DCBD9E;
+}
+
+
+
+
+/** ArticleCard.js **/
+.article-card-img-1{
+	width: 100%;
+	object-fit: cover;
+	height: 100%; 
+	box-sizing: border-box;
+}
+
+
+.article-card-author{
+	color: #84A1B6;
+	font-style: normal;
+	font-weight: bold;
+	margin-top: 10px;
+	text-transform: uppercase;
+	text-align: left;
+}
+
+.article-card-description{
+	text-align: left;
+	color: black;
+}
+
+/** Ad specific*/
+.article-ad-card-image-1 img {
+	border: solid #FFC741 10px;
+	box-sizing: border-box;
+	object-fit: cover;
+	width: 100%;
+	height: 100%; 
+}
+
+
+.article-ad-card-sponsor {
+	font-weight: bold;
+	color: black;
+	font-family: Source Sans Pro;
+}
+
+.article-ad-card-description{
+	color: black;
+	font-family: Source Sans Pro;
+	font-size: 16px;
+}
+
+
+
+/*testing...*/
+
+
+.wrapper-1 {
+	position: relative;
+	width: 100%; /* <-- just a default, can be anything. */
+}
+
+.wrapper-2 {
+	position: relative;
+	width: 48.48%; /* <-- just a default, can be anything. */
+}
+
+   .three-by-two.aspect-ratio { padding-bottom: 66.666% }
+  .four-by-three.aspect-ratio { padding-bottom: 75% }
+.sixteen-by-nine.aspect-ratio { padding-bottom: 56.25% }
+.three-eighty-by-three-twenty-ratio {padding-bottom: 84.2%}
+
+.content {
+    position: absolute;
+    top: 0;  bottom: 0;  left: 0;  right: 0;
+	/*padding: 0 24px;  Optional padding for content area */
+}
+
+
+
+
