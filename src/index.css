@@ -11,3 +11,8 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: 'Clearface Black SSi';
+  src: local('Clearface Black SSi'), url(./fonts/ClearfaceBlackSSiBlack.ttf) format('truetype');
+}

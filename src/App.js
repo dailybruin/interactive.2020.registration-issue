@@ -2,15 +2,17 @@ import React from 'react';
 import './App.css';
 import Landing from "./components/Landing.js"
 import Section from "./components/Section"
-import ScrollyContainer from "./components/ScrollyContainer.js"
+import ScrollyContainer from "./components/ScrollyContainer.js";
+import Navbar from './components/Navbar/Navbar';
 
 function App() {
-  return (
+  return (  
     <div className="App">
       <header className="App-header">
         <Landing />
 
       </header>
+      <Navbar/>
       <p>
           hello here's some stuff under the landing
       </p>
