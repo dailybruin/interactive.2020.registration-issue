@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import Landing from "./components/Landing.js"
+import Section from "./components/Section"
 import ScrollyContainer from "./components/ScrollyContainer.js"
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <Landing />
+
       </header>
       <p>
           hello here's some stuff under the landing
@@ -20,6 +22,7 @@ function App() {
       <p>
         here's some more garbage text to confirm line goes under everything
       </p>
+      <Section/>
     </div>
   );
 }
