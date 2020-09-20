@@ -7,7 +7,7 @@ function Landing() {
         <div
         className="InfoBox"
         >
-            Registration Issue
+            registration issue
         </div>
         <div
         className="TwentyTwenty"
@@ -24,6 +24,14 @@ function Landing() {
         >
           Uncharted Waters
         </a>
+        <div
+        className="Illo-Credit">
+            ILLUSTRATIONS BY EMILY DEMBINSKI
+        </div>
+        <a href="https://dailybruin.com">
+            <img src={require("./images/db.png")} className="DB-Logo"></img>
+        </a>
+        
     </div>
     )
 }
