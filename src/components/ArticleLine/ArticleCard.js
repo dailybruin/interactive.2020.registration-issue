@@ -21,12 +21,12 @@ function ArticleCard(props) {
   let width = 1;
 
   return (
-    <div className={`article-card-${width}`}>
-     <div class={`wrapper-${width}`}>
+    <div className={`article-card`}>
+     <div class={`wrapper`}>
       <div class="sixteen-by-nine-aspect-ratio"></div>
       <div class="content">
         <a href={props.link} >
-        <img className={`article-card-img-${width}`} src={props.img} alt="Article" />
+        <img className={`article-card-img`} src={props.img} alt="Article" />
        </a>
       </div>
     </div>

@@ -17,11 +17,8 @@ return (
             "link": "https://dailybruin.com/2020/09/12/air-quality-in-westwood-deemed-unhealthy-as-a-result-of-nearby-fires"
           },
           {
-            "type": "article", 
-            "img": "https://wp.dailybruin.com/images/2020/09/fires.KM_1.jpg",
-            "author": "Elizabeth Sherwood",
-            "title": "Air quality in Westwood is unhealthy",
-            "link": "https://dailybruin.com/2020/09/12/air-quality-in-westwood-deemed-unhealthy-as-a-result-of-nearby-fires"
+            "type": "ad", 
+            "num": "2"
           },
           {
             "type": "article", 
