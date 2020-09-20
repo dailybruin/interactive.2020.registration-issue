@@ -1,8 +1,5 @@
 
 /** ArticleLine.js **/
-
-
-
 .article-line {
 	margin-top: 30px; /* This value should be -y where y is transform: translate(0, y) in .article-container*/
 	background-color: #EDD6C6;
@@ -11,19 +8,27 @@
 	min-width: 75%; /* should be 100% - left: 25%;*/
 	max-width: 75%; /* */
 	border: 5px solid #DCBD9E;
+	box-sizing: border-box;
 }
 
 .article-container{
 	display: flex;
 	overflow: scroll;
-	transform: translate(0px, -30px);
 	padding-left: 20px;
-	
+	transform: translate(0px, -30px);
+	/* Hide scrollbar for IE, Edge and Firefox */
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+ /* Hide scrollbar for Chrome, Safari and Opera */
+.article-container::-webkit-scrollbar {
+  display: none;
 }
 
 .article-card-1 {
 	min-width: 350px;
 	margin-left: 30px;
+	margin-right: 30px;
 	background: white;
 	border-radius: 10px; /* If you change this, change border-radius in article-ad-card-image-1 and article-card-img-1*/
 }
@@ -56,10 +61,10 @@
 	color: #80ADD6;
 	font-family: Source Sans Pro;
 	font-style: normal;
-	font-weight: 600;
+	font-weight: 400;
 	font-size: 16px;
 	line-height: 20px;
-	margin-top: 10px;
+	margin-top: 15px;
 	text-transform: uppercase;
 	text-align: left;
 }
@@ -70,7 +75,8 @@
 	font-style: normal;
 	font-weight: 600;
 	font-size: 20px;
-	line-height: 25px;
+	margin-top: 5px;
+	margin-bottom: 10px;
 }
 
 /** Ad specific*/
@@ -90,11 +96,6 @@
 	font-family: Source Sans Pro;
 }
 
-.article-ad-card-description{
-	color: black;
-	font-family: Source Sans Pro;
-	font-size: 16px;
-}
 
 
 

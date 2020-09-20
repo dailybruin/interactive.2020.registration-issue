@@ -1,3 +1,4 @@
+import "./style.css";
 import ArticleLine from "../ArticleLine"
 import React from 'react';
 
@@ -5,8 +6,8 @@ import React from 'react';
 export default function Section(props){
 
 return (
-	<div>
-	<h1> News </h1>
+	<div className="section">
+	<h1 className="title"> News </h1>
 	<ArticleLine objects={[
           {
             "type": "article", 
