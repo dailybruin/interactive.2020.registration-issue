@@ -9,9 +9,13 @@ import Staff from "./components/Staff/index.js"
 import Navbar from './components/Navbar/Navbar';
 import StaticImage from './components/StaticImage/StaticImage';
 import BannerAd from "./components/BannerAd"
+import styled from 'styled-components';
 
 const waterRightImage = "https://assets.dailybruin.com/images/interactive.2020.registration-issue/water1-5fc6e68848e912abd9542f6fb0415c42.png";
 const waterLeftImage = "https://assets.dailybruin.com/images/interactive.2020.registration-issue/water2-7bb062af88db7035de67484c317cd462.png";
+
+const Anchor = styled('div')`
+`
 
 function App() {
   return (  
@@ -24,7 +28,8 @@ function App() {
       <ScrollyContainer>
       </ScrollyContainer>
       <Navbar/>
-      <Explainer></Explainer>
+      <Anchor id='introduction'/>
+      <Explainer/>
       <StaticImage imageUrl={waterRightImage} align="left"/>
       <p>
           hello here's some stuff under the landing

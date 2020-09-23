@@ -26,7 +26,9 @@ const NavbarItems = styled('div')`
     }
 `
 
-const NavbarItem = styled('div')`
+const NavbarItem = styled('a')`
+    color: #fff;
+    text-decoration: none;
     margin-left: 35px;
     @media (max-width: 768px) {
         margin-left: 0;
@@ -58,7 +60,7 @@ class Navbar extends React.Component {
             <Bar>
                 <Title>registration issue 2020</Title>
                 <NavbarItems>
-                    <NavbarItem>
+                    <NavbarItem href="#introduction">
                         introduction
                     </NavbarItem>
                     <NavbarItem>

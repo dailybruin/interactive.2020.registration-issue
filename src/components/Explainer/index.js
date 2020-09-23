@@ -15,6 +15,7 @@ export default function Explainer(props) {
                 "padding": "100px 200px",
                 // "margin-left": mql.matches ? 'min(13vw, 155px)' : '23vw', 
                 // "margin-right": "30px"
+                "height" : "100vh"
             }}
         >
             <br></br>
