@@ -6,7 +6,7 @@ export default function About(props) {
         <div id={"ABOUT_Section"}
             style={{ 
                 color: "white", 
-                "background-color": "#588BB8",
+                "background-color": "#80ADD6",
                 "text-align": "center", 
                 "font-family": "Source Sans Pro",
                 "font-size": "30px",
