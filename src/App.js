@@ -1,8 +1,11 @@
 import React from 'react';
 import './App.css';
+import About from "./components/About/index.js"
+import Explainer from "./components/Explainer/index.js"
 import Landing from "./components/Landing.js"
 import Section from "./components/Section"
-import ScrollyContainer from "./components/ScrollyContainer.js";
+import ScrollyContainer from "./components/ScrollyContainer.js"
+import Staff from "./components/Staff/index.js"
 import Navbar from './components/Navbar/Navbar';
 import StaticImage from './components/StaticImage/StaticImage';
 
@@ -15,6 +18,9 @@ function App() {
       <header className="App-header">
         <Landing />
       </header>
+      <Explainer></Explainer>
+      <ScrollyContainer>
+      </ScrollyContainer>
       <Navbar/>
       <StaticImage imageUrl={waterRightImage} align="left"/>
       <p>
@@ -28,6 +34,8 @@ function App() {
         here's some more garbage text to confirm line goes under everything
       </p>
       <Section/>
+      <About></About>
+      <Staff></Staff>
     </div>
   );
 }

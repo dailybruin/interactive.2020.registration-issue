@@ -87,14 +87,18 @@
 }
 
 .Title {
+  text-align: center;
+  align-items: center;
+
+  margin: auto;
+  width: 70%;
   font-family: Clearface Black SSi;
   font-style: normal;
   font-weight: bold;
-  font-size: 100px;
+  font-size: 150px;
   line-height: 140px;
-  text-align: left;
   color: #FFFFFF;
-  text-shadow: 4px 2px 8px #588BB8;
+  text-shadow: 4px 4px 0px #588BB8;
 }
 
 .Illo-Credit {

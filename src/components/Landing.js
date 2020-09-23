@@ -19,11 +19,11 @@ function Landing() {
         >
             by the Daily Bruin
         </div>
-        <a
+        <div
           className="Title"
         >
           Uncharted Waters
-        </a>
+        </div>
         <div
         className="Illo-Credit">
             ILLUSTRATIONS BY EMILY DEMBINSKI
