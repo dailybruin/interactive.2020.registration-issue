@@ -1,6 +1,7 @@
 import React, { useMemo } from "react";
 import ArticleCard from "./ArticleCard";
 import AdCard from "./AdCard";
+import arrow from "./arrow.svg"
 
 /**
 * props: {
@@ -46,7 +47,6 @@ function ArticleGrid(props) {
           return (
             <AdCard
               key={index}
-              sponsor={x.sponsor}
               num={x.num}
             />
           );
@@ -55,7 +55,7 @@ function ArticleGrid(props) {
       })}
     </div>
   {/*TODO: this isn't working right*/}
-    <span className="article-read-more">Read more </span>
+    <p className="article-read-more">Read more <img src={arrow} alt="Arrow icon"/></p>
     </div>
   );
 }
