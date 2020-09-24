@@ -19,7 +19,6 @@ function AdCard(props) {
     return null
 
 
-  console.log(props);
   let ad = null
 
   switch(parseInt(props.num)){
