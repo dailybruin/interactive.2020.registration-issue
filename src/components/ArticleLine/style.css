@@ -25,13 +25,27 @@
   display: none;
 }
 
+
 .article-card{
-	min-width: 350px;
+	min-width: 200px;
 	margin-left: 30px;
 	margin-right: 30px;
 	background: white;
 	border-radius: 10px; /* If you change this, change border-radius in article-ad-card-image-1 and article-card-img-1*/
 }
+
+@media only screen and (min-width: 800px) {
+  .article-card{
+		min-width: 350px;
+		margin-left: 30px;
+		margin-right: 30px;
+		background: white;
+		border-radius: 10px; /* If you change this, change border-radius in article-ad-card-image-1 and article-card-img-1*/
+	}
+}
+
+
+
 
 .article-read-more {
 	color: #DCBD9E;
@@ -63,23 +77,53 @@
 	font-family: Source Sans Pro;
 	font-style: normal;
 	font-weight: 400;
-	font-size: 16px;
+	font-size: 14px;
 	line-height: 20px;
-	margin-top: 15px;
+	margin-top: 10px;
 	text-transform: uppercase;
 	text-align: left;
 }
+
+@media only screen and (min-width: 800px) {
+	.article-card-author{
+		color: #80ADD6;
+		font-family: Source Sans Pro;
+		font-style: normal;
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 20px;
+		margin-top: 15px;
+		text-transform: uppercase;
+		text-align: left;
+	}
+
+}
+
 
 .article-card-title{
 	text-align: left;
 	font-family: Source Sans Pro;
 	font-style: normal;
 	font-weight: 600;
-	font-size: 20px;
-	margin-top: 5px;
-	margin-bottom: 10px;
+	font-size: 15px;
+	margin-top: 4px;
+	margin-bottom: 5px;
+	margin-right: 2px;
+
 }
 
+@media only screen and (min-width: 800px) {
+	.article-card-title{
+		text-align: left;
+		font-family: Source Sans Pro;
+		font-style: normal;
+		font-weight: 600;
+		font-size: 20px;
+		margin-top: 5px;
+		margin-bottom: 10px;
+		margin-right: 2px;
+	}
+}
 /** Ad specific*/
 .ad-card {
 	background-position: center; /* Center the image */
