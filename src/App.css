@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  background-color: #80ADD6;
+  /*background-color: #80ADD6;*/
   z-index: -999;
   height: 400vh;
 }
@@ -14,7 +14,7 @@
 }
 
 body {
-  background-color: rgb(128, 173, 214);
+  /*background-color: rgb(128, 173, 214);*/
 }
 
 

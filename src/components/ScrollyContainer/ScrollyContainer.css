@@ -1,0 +1,25 @@
+#ScrollyPath {
+    z-index: -1;
+    height: 100%;
+    stroke-width: 4;
+    stroke: #568CBA; 
+    /*transform: translateY(-425px);*/
+}
+
+#ScrollySVG {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    fill: none;
+}
+
+#ScrollyDiv {
+    position: absolute;
+    z-index: -1;
+    min-height: 100%;
+    height: 100%;
+    width: 100%;
+}

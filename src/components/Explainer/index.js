@@ -12,7 +12,7 @@ export default function Explainer(props) {
                 "font-style": "italic",
                 "font-weight": "600",
                 "font-size": "30px",
-                "padding": "100px 200px",
+                "padding": "100px 200px 0px 200px",
                 // "margin-left": mql.matches ? 'min(13vw, 155px)' : '23vw', 
                 // "margin-right": "30px"
                 "height" : "100vh"
@@ -30,6 +30,7 @@ export default function Explainer(props) {
             </p>
             <br></br>
             <br></br>
+            <hr/>
     </div>
     );
 }
