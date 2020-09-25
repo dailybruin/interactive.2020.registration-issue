@@ -1,7 +1,7 @@
 import React from "react";
 
 export default function About(props) {
-    // const mql = window.matchMedia(`(min-width: 800px)`);
+    const mql = window.matchMedia(`(min-width: 800px)`);
     return (
         <div id={"ABOUT_Section"}
             style={{ 
@@ -9,8 +9,10 @@ export default function About(props) {
                 "background-color": "#80ADD6",
                 "text-align": "center", 
                 "font-family": "Source Sans Pro",
-                "font-size": "30px",
-                "padding": "100px",
+                // "font-size": "30px",
+                // "padding": "100px",
+                "font-size": mql.matches ? "30px" : '3.5vw', 
+                "padding": mql.matches ? " 50px 100px" : "0 40px",
                 "font-style": "italic",
                 "font-weight": "600",
                 // "margin-left": mql.matches ? 'min(13vw, 155px)' : '23vw', 
