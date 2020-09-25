@@ -13,6 +13,11 @@
   width:80px;
 }
 
+body {
+  background-color: rgb(128, 173, 214);
+}
+
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;

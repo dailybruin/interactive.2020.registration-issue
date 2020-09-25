@@ -63,16 +63,9 @@ function App (){
       <Anchor id='introduction'/>
       <Explainer/>
       <StaticImage imageUrl={waterRightImage} align="left"/>
-      <p>
-          hello here's some stuff under the landing
-      </p>
+     
       <ScrollyContainer/>
-      <p>
-          here's some stuff under the landing
-      </p>
-      <p>
-        here's some more garbage text to confirm line goes under everything
-      </p>
+      
 
       {section_names.map(x => data[x]? <Section key={x} section={x.replace("_", " ")} objects={data[x]}/>: null)}
 
