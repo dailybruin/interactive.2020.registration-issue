@@ -18,7 +18,7 @@ function AdCard(props) {
   if(rand === null)
     return null
 
-
+  console.log(props)
 
   let img; //= `http://ads.studentmedia.ucla.edu/www/delivery/avw.php?zoneid=69&cb=${rand}&n=acae03fd`
   let href;
