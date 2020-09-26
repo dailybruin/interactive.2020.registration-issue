@@ -1,8 +1,7 @@
 .App {
   text-align: center;
-  /*background-color: #80ADD6;*/
+  background-color: #80ADD6;
   z-index: -999;
-  height: 400vh;
 }
 
 .DB-Logo {
@@ -16,6 +15,14 @@
 body {
   /*background-color: rgb(128, 173, 214);*/
 }
+@media (max-width: 768px) {
+  #Explainer_Section {
+    font-size: 20px !important;
+    padding: 50px !important;
+  }
+}
+
+
 
 
 .App-logo {

@@ -1,4 +1,5 @@
 import React from "react";
+import '../../App.css';
 
 export default function Explainer(props) {
     const mql = window.matchMedia(`(min-width: 800px)`);
@@ -6,11 +7,13 @@ export default function Explainer(props) {
         <div id={"Explainer_Section"}
             style={{ 
                 color: "white", 
-                "background-color": "#80ADD6",
+                // "background-color": "#80ADD6",
                 "text-align": "center", 
                 "font-family": "Source Sans Pro",
                 "font-style": "italic",
                 "font-weight": "600",
+                'position': 'relative',
+                "zIndex" : 3,
                 // "font-size": "10vw",
                 "font-size": mql.matches ? "30px" : '3.5vw', 
                 "padding": mql.matches ? " 50px 100px" : "0 50px",
@@ -32,6 +35,6 @@ export default function Explainer(props) {
             <br></br>
             <br></br>
             <hr/>
-    </div>
+        </div>
     );
 }
