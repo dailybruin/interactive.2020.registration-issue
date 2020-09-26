@@ -13,9 +13,6 @@ import styled from 'styled-components';
 import axios from 'axios'
 import ReactGA from 'react-ga';
 
-const waterRightImage = "https://assets.dailybruin.com/images/interactive.2020.registration-issue/water1-5fc6e68848e912abd9542f6fb0415c42.png";
-const waterLeftImage = "https://assets.dailybruin.com/images/interactive.2020.registration-issue/water2-7bb062af88db7035de67484c317cd462.png";
-
 const Anchor = styled('div')`
 `
 
@@ -58,21 +55,28 @@ function App (){
     <div className="App">
       
       <header className="App-header">
-      <Landing />
-        
+        <Landing />        
       </header>
       <BannerAd  section={"HEADER"}/>
+      
       <Navbar/>
       
       <Anchor id='introduction'/>
+      
       <Explainer/>
-      <StaticImage imageUrl={waterRightImage} align="left"/>
       <div style={{position: "relative"}}>
-        <div style={{position: "absolute", height: "100%", width: "100%", backgroundColor: "#80ADD6", zIndex: -2}}></div>
+        <div style={{position: "absolute", height: "100%", width: "100%", backgroundColor: "#80ADD6", zIndex: -99}}></div>
         <ScrollyContainer/>
-        {section_names.map(x => data[x]? <Section key={x} section={x.replace("_", " ")} objects={data[x]}/>: null)}
+        <Anchor id='stories'/>
+        {section_names.map(x => data[x] ?
+        <div style={{marginBottom: "200px", width: "100%", position: "relative"}}>
+          <StaticImage imageUrl={"water_right"}/>
+          <Section key={x} section={x.replace("_", " ")} objects={data[x]}/>
+          <StaticImage imageUrl={"land_one"}/>
+        </div>
+        : null)}
       </div>
-
+      <Anchor id='about'/>
       <About></About>
 
       <Staff></Staff>

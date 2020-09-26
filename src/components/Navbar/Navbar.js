@@ -10,6 +10,9 @@ const Title = styled('div')`
     @media (max-width: 768px) {
         font-size: 36px;
     }
+    @media (max-width: 400px) {
+        font-size: 28px;
+    }
 `
 
 const NavbarItems = styled('div')`
@@ -63,10 +66,10 @@ class Navbar extends React.Component {
                     <NavbarItem href="#introduction">
                         introduction
                     </NavbarItem>
-                    <NavbarItem>
+                    <NavbarItem href="#stories">
                         stories
                     </NavbarItem>
-                    <NavbarItem>
+                    <NavbarItem href="#about">
                         about
                     </NavbarItem>
                 </NavbarItems>
