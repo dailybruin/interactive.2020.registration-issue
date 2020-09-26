@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/interactive.2020.registration-issue/static/css/main.339ca7de.chunk.css",
-    "main.js": "/interactive.2020.registration-issue/static/js/main.cacd9613.chunk.js",
-    "main.js.map": "/interactive.2020.registration-issue/static/js/main.cacd9613.chunk.js.map",
+    "main.js": "/interactive.2020.registration-issue/static/js/main.23467e9e.chunk.js",
+    "main.js.map": "/interactive.2020.registration-issue/static/js/main.23467e9e.chunk.js.map",
     "runtime-main.js": "/interactive.2020.registration-issue/static/js/runtime-main.58c4d27b.js",
     "runtime-main.js.map": "/interactive.2020.registration-issue/static/js/runtime-main.58c4d27b.js.map",
-    "static/js/2.c022216e.chunk.js": "/interactive.2020.registration-issue/static/js/2.c022216e.chunk.js",
-    "static/js/2.c022216e.chunk.js.map": "/interactive.2020.registration-issue/static/js/2.c022216e.chunk.js.map",
+    "static/js/2.e80e17f2.chunk.js": "/interactive.2020.registration-issue/static/js/2.e80e17f2.chunk.js",
+    "static/js/2.e80e17f2.chunk.js.map": "/interactive.2020.registration-issue/static/js/2.e80e17f2.chunk.js.map",
     "index.html": "/interactive.2020.registration-issue/index.html",
-    "precache-manifest.ce0e4f67ed6fd313c529ec86856570a8.js": "/interactive.2020.registration-issue/precache-manifest.ce0e4f67ed6fd313c529ec86856570a8.js",
+    "precache-manifest.5ec3dbf4caf51aba77e74e61179469c4.js": "/interactive.2020.registration-issue/precache-manifest.5ec3dbf4caf51aba77e74e61179469c4.js",
     "service-worker.js": "/interactive.2020.registration-issue/service-worker.js",
     "static/css/main.339ca7de.chunk.css.map": "/interactive.2020.registration-issue/static/css/main.339ca7de.chunk.css.map",
-    "static/js/2.c022216e.chunk.js.LICENSE.txt": "/interactive.2020.registration-issue/static/js/2.c022216e.chunk.js.LICENSE.txt",
+    "static/js/2.e80e17f2.chunk.js.LICENSE.txt": "/interactive.2020.registration-issue/static/js/2.e80e17f2.chunk.js.LICENSE.txt",
     "static/media/index.css": "/interactive.2020.registration-issue/static/media/ClearfaceBlackSSiBlack.019e0322.ttf",
     "static/media/arrow.svg": "/interactive.2020.registration-issue/static/media/arrow.08a88636.svg",
     "static/media/db.png": "/interactive.2020.registration-issue/static/media/db.a439902c.png",
@@ -19,8 +19,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.58c4d27b.js",
-    "static/js/2.c022216e.chunk.js",
+    "static/js/2.e80e17f2.chunk.js",
     "static/css/main.339ca7de.chunk.css",
-    "static/js/main.cacd9613.chunk.js"
+    "static/js/main.23467e9e.chunk.js"
   ]
 }
