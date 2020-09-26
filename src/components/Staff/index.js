@@ -1,7 +1,7 @@
 import React from "react";
 
 export default function Staff(props) {
-    // const mql = window.matchMedia(`(min-width: 800px)`);
+    const mql = window.matchMedia(`(min-width: 800px)`);
     return (
     <div id={"STAFF_Section"}
   	    style={{ 
@@ -10,8 +10,10 @@ export default function Staff(props) {
             "text-align": "center", 
             "font-family": "Source Sans Pro",
             "font-style": "italic",
-            "font-size": "20px",
-            "padding": "100px",
+            // "font-size": "20px",
+            // "padding": "100px",
+            "font-size": mql.matches ? "20px" : '3.5vw', 
+            "padding": mql.matches ? " 100px 200px" : "0 40px",
             // "margin-left": mql.matches ? 'min(13vw, 155px)' : '23vw', "margin-right": "30px"
         }}
     >      
