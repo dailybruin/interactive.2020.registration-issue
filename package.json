@@ -2,6 +2,7 @@
   "name": "interactive.2020.registration-issue",
   "version": "0.1.0",
   "private": true,
+  "homepage": "interactive.2020.registration-issue/",
   "dependencies": {
     "axios": "^0.20.0",
     "cra-template": "1.0.3",

@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.4afa2f9e.chunk.css",
-    "main.js": "/static/js/main.8e427468.chunk.js",
-    "main.js.map": "/static/js/main.8e427468.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.7f84880d.js",
-    "runtime-main.js.map": "/static/js/runtime-main.7f84880d.js.map",
-    "static/js/2.084e8a21.chunk.js": "/static/js/2.084e8a21.chunk.js",
-    "static/js/2.084e8a21.chunk.js.map": "/static/js/2.084e8a21.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.8100720e18f4127d0765887707230dec.js": "/precache-manifest.8100720e18f4127d0765887707230dec.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.4afa2f9e.chunk.css.map": "/static/css/main.4afa2f9e.chunk.css.map",
-    "static/js/2.084e8a21.chunk.js.LICENSE.txt": "/static/js/2.084e8a21.chunk.js.LICENSE.txt",
-    "static/media/index.css": "/static/media/ClearfaceBlackSSiBlack.019e0322.ttf",
-    "static/media/arrow.svg": "/static/media/arrow.08a88636.svg",
-    "static/media/db.png": "/static/media/db.a439902c.png",
-    "static/media/App.css": "/static/media/landing_background.e7b973c5.png"
+    "main.css": "/interactive.2020.registration-issue/static/css/main.339ca7de.chunk.css",
+    "main.js": "/interactive.2020.registration-issue/static/js/main.cacd9613.chunk.js",
+    "main.js.map": "/interactive.2020.registration-issue/static/js/main.cacd9613.chunk.js.map",
+    "runtime-main.js": "/interactive.2020.registration-issue/static/js/runtime-main.58c4d27b.js",
+    "runtime-main.js.map": "/interactive.2020.registration-issue/static/js/runtime-main.58c4d27b.js.map",
+    "static/js/2.c022216e.chunk.js": "/interactive.2020.registration-issue/static/js/2.c022216e.chunk.js",
+    "static/js/2.c022216e.chunk.js.map": "/interactive.2020.registration-issue/static/js/2.c022216e.chunk.js.map",
+    "index.html": "/interactive.2020.registration-issue/index.html",
+    "precache-manifest.ce0e4f67ed6fd313c529ec86856570a8.js": "/interactive.2020.registration-issue/precache-manifest.ce0e4f67ed6fd313c529ec86856570a8.js",
+    "service-worker.js": "/interactive.2020.registration-issue/service-worker.js",
+    "static/css/main.339ca7de.chunk.css.map": "/interactive.2020.registration-issue/static/css/main.339ca7de.chunk.css.map",
+    "static/js/2.c022216e.chunk.js.LICENSE.txt": "/interactive.2020.registration-issue/static/js/2.c022216e.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/interactive.2020.registration-issue/static/media/ClearfaceBlackSSiBlack.019e0322.ttf",
+    "static/media/arrow.svg": "/interactive.2020.registration-issue/static/media/arrow.08a88636.svg",
+    "static/media/db.png": "/interactive.2020.registration-issue/static/media/db.a439902c.png",
+    "static/media/App.css": "/interactive.2020.registration-issue/static/media/landing_background.e7b973c5.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.7f84880d.js",
-    "static/js/2.084e8a21.chunk.js",
-    "static/css/main.4afa2f9e.chunk.css",
-    "static/js/main.8e427468.chunk.js"
+    "static/js/runtime-main.58c4d27b.js",
+    "static/js/2.c022216e.chunk.js",
+    "static/css/main.339ca7de.chunk.css",
+    "static/js/main.cacd9613.chunk.js"
   ]
 }
