@@ -11,6 +11,7 @@ import StaticImage from './components/StaticImage/StaticImage';
 import BannerAd from "./components/BannerAd"
 import styled from 'styled-components';
 import axios from 'axios'
+import ReactGA from 'react-ga';
 
 const waterRightImage = "https://assets.dailybruin.com/images/interactive.2020.registration-issue/water1-5fc6e68848e912abd9542f6fb0415c42.png";
 const waterLeftImage = "https://assets.dailybruin.com/images/interactive.2020.registration-issue/water2-7bb062af88db7035de67484c317cd462.png";
@@ -28,6 +29,11 @@ const section_names = [
   "PRIME",
   "THE_QUAD"
 ];
+
+function initializeReactGA() {
+  ReactGA.initialize('UA-28181852-30');
+  ReactGA.pageview('/homepage');
+}
 
 function App (){
 

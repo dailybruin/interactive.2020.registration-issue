@@ -14,7 +14,6 @@ export default function BannerAd(props) {
 		return null
 
 	switch(props.section){
-		//these will change once we get the final ad stuff
 		case "HEADER":
 			return <a className="banner-ad" href={`https://ads.studentmedia.ucla.edu/www/delivery/ck.php?n=a322f0ab&amp;cb=INSERT_RA NDOM_NUMBER_HERE`} target='_blank'>
 				<img src={`https://ads.studentmedia.ucla.edu/www/delivery/avw.php?zoneid=81&amp;cb=${rand}&amp;n=abdc3f10`} border='0' alt='' /></a>;
