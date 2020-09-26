@@ -31,6 +31,7 @@ export default function Explainer(props) {
             </p>
             <br></br>
             <br></br>
+            <hr/>
     </div>
     );
 }

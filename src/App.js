@@ -4,7 +4,7 @@ import About from "./components/About/index.js"
 import Explainer from "./components/Explainer/index.js"
 import Landing from "./components/Landing.js"
 import Section from "./components/Section"
-import ScrollyContainer from "./components/ScrollyContainer.js"
+import ScrollyContainer from "./components/ScrollyContainer/ScrollyContainer.js"
 import Staff from "./components/Staff/index.js"
 import Navbar from './components/Navbar/Navbar';
 import StaticImage from './components/StaticImage/StaticImage';
@@ -48,28 +48,25 @@ function App (){
   }, [])
 
   //      
-
- console.log(data)
   return (  
     <div className="App">
+      
       <header className="App-header">
-        <Landing />
+      <Landing />
         
       </header>
       <BannerAd  section={"HEADER"}/>
-      <ScrollyContainer>
-      </ScrollyContainer>
       <Navbar/>
+      
       <Anchor id='introduction'/>
       <Explainer/>
       <StaticImage imageUrl={waterRightImage} align="left"/>
-     
-      <ScrollyContainer/>
-      
+      <div style={{position: "relative"}}>
+        <div style={{position: "absolute", height: "100%", width: "100%", backgroundColor: "#80ADD6", zIndex: -2}}></div>
+        <ScrollyContainer/>
+        {section_names.map(x => data[x]? <Section key={x} section={x.replace("_", " ")} objects={data[x]}/>: null)}
+      </div>
 
-      {section_names.map(x => data[x]? <Section key={x} section={x.replace("_", " ")} objects={data[x]}/>: null)}
-
-      
       <About></About>
 
       <Staff></Staff>
