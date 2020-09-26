@@ -34,6 +34,8 @@ function initializeReactGA() {
 
 function App (){
 
+  initializeReactGA()
+
   let [data, setData] = useState({})
 
   useEffect(() => {
