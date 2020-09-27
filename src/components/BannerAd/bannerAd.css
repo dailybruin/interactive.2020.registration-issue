@@ -1,3 +1,8 @@
 .banner-ad img {
 	width: 100%;
 }
+
+.banner-ad {
+	position: relative;
+	z-index: 999;
+}
