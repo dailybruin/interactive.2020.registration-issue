@@ -65,11 +65,11 @@ function AdCard(props) {
 
 
     return (
-    <div 
+    <a 
       className={`article-card ad-card`}  
       style={{"backgroundImage": `url(${img})`}} 
       href={href}>
-    </div>
+    </a>
   )
 }
 
