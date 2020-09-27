@@ -14,13 +14,11 @@ export default function BannerAd(props) {
 		return null
 
 	switch(props.section){
-		//these will change once we get the final ad stuff
 		case "HEADER":
-			return <a className="banner-ad" href={`http://ads.studentmedia.ucla.edu/www/delivery/ck.php?n=ac54f0fd&cb=${rand}`} target='_blank'><img src={`http://ads.studentmedia.ucla.edu/www/delivery/avw.php?zoneid=67&cb=${rand}&n=ac54f0fd`} border='0' alt='' /></a>;
-		case "SPORTS":
-			return <a className="banner-ad" href={`http://ads.studentmedia.ucla.edu/www/delivery/ck.php?n=a8964dfd&cb=${rand}`} target='_blank'><img src={`http://ads.studentmedia.ucla.edu/www/delivery/avw.php?zoneid=70&cb=${rand}&n=a8964dfd`} border='0' alt='' /></a>
-		case "ARTS":
-			return <a className="banner-ad" href={`http://ads.studentmedia.ucla.edu/www/delivery/ck.php?n=a6986ad4&cb=${rand}`} target='_blank'><img src={`http://ads.studentmedia.ucla.edu/www/delivery/avw.php?zoneid=73&cb=${rand}&n=a6986ad4`} border='0' alt='' /></a>
+			return <a className="banner-ad" href={`https://ads.studentmedia.ucla.edu/www/delivery/ck.php?n=a322f0ab&amp;cb=INSERT_RA NDOM_NUMBER_HERE`} target='_blank'>
+				<img src={`https://ads.studentmedia.ucla.edu/www/delivery/avw.php?zoneid=81&amp;cb=${rand}&amp;n=abdc3f10`} border='0' alt='' /></a>;
+		case "OPINION":
+			return <><br></br><br></br><br></br><a className="banner-ad" href={`http://ads.studentmedia.ucla.edu/www/delivery/ck.php?n=a322f0ab&amp;cb=${rand}`} target='_blank'><img src={`http://ads.studentmedia.ucla.edu/www/delivery/avw.php?zoneid=82&amp;cb=${rand}&amp;n=a322f0ab`} border='0' alt='' /></a></>
 		default:
 			return null
 	}

@@ -47,7 +47,7 @@ function ArticleGrid(props) {
           return (
             <AdCard
               key={index}
-              num={x.num}
+              id={x.id}
             />
           );
         }
