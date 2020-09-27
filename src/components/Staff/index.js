@@ -3,6 +3,28 @@ import React from "react";
 export default function Staff(props) {
     const mql = window.matchMedia(`(min-width: 800px)`);
     return (
+    <div>
+        <div 
+            style={{
+                "font-family": "Source Sans Pro",
+                "font-weight": "700px",
+                "font-style": "normal",
+                "font-size": mql.matches ? "40px" : '3.5vw', 
+                "color": "white",
+                "background-image": "linear-gradient(to bottom, #80ADD6 75%, #E5C9B2 25%)",
+                "padding": "50px 0 0 0",
+            }}
+        >
+            <div style={{"position": "absolute", "z-index": "1"}}>
+                <img src={require("../images/transparent_sand.svg")} alt="transparent_sand" width="100%"/>
+                <div style={{"position": "relative", "z-index": "1", "bottom": mql.matches ? "100px" : '30px', "font-size": mql.matches ? "50px" : '4vw'}}>
+                    Daily Bruin Editorial Staff
+                </div>
+            </div>
+            <div style={{"position": "relative", "z-index": "0"}}>
+                <img src={require("../images/opaque_sand.svg")} alt="opaque_sand" width="100%"/>
+            </div>
+    </div>
     <div id={"STAFF_Section"}
   	    style={{ 
             color: "white", 
@@ -13,15 +35,10 @@ export default function Staff(props) {
             // "font-size": "20px",
             // "padding": "100px",
             "font-size": mql.matches ? "20px" : '3.5vw', 
-            "padding": mql.matches ? " 100px 200px" : "0 40px",
+            "padding": mql.matches ? " 20px 200px 100px 200px" : "20px 40px",
             // "margin-left": mql.matches ? 'min(13vw, 155px)' : '23vw', "margin-right": "30px"
         }}
     >      
-        <h1 style= {{
-            "font-family": "Source Sans Pro",
-            "font-weight": "700px",
-            "font-style": "normal",
-        }}>Daily Bruin Editorial Staff</h1>
         <b style={{ "font-style": "normal"}}>Management</b>
         <br></br>
         Melissa Morris | Editor in chief
@@ -214,6 +231,7 @@ export default function Staff(props) {
         <br></br>
         Mattie Sanseverino, Neil Prajapati, Sarthak More, Andrew Kan, and Denise Wang
 	</div>
+    </div>
 );
   
 }

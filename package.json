@@ -8,6 +8,7 @@
     "jquery": "^3.5.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-ga": "^3.1.2",
     "react-scripts": "^3.4.3",
     "react-scroll-percentage": "^4.2.0",
     "styled-components": "^5.2.0"
@@ -16,7 +17,6 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "gh_pages": "yarn run build && rm docs/* -rf && cp -r build/* docs/",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {

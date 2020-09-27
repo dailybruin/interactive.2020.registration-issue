@@ -11,6 +11,7 @@ import StaticImage from './components/StaticImage/StaticImage';
 import BannerAd from "./components/BannerAd"
 import styled from 'styled-components';
 import axios from 'axios'
+import ReactGA from 'react-ga';
 
 const Anchor = styled('div')`
 `
@@ -26,7 +27,14 @@ const section_names = [
   "THE_QUAD"
 ];
 
+function initializeReactGA() {
+  ReactGA.initialize('UA-28181852-30');
+  ReactGA.pageview('/homepage');
+}
+
 function App (){
+
+  initializeReactGA()
 
   let [data, setData] = useState({})
 
