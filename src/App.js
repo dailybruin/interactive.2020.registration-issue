@@ -72,7 +72,7 @@ function App (){
         <Anchor id='stories'/>
         {section_names.map(x => data[x] ?
         <div style={{marginBottom: "200px", width: "100%", position: "relative"}}>
-          <StaticImage imageUrl={"water_right"}/>
+          <StaticImage imageUrl={"water_right"} section={x.replace("_", " ")}/>
           <Section key={x} section={x.replace("_", " ")} objects={data[x]}/>
           <StaticImage imageUrl={"land_one"}/>
         </div>
