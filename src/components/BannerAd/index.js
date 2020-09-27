@@ -15,10 +15,11 @@ export default function BannerAd(props) {
 
 	switch(props.section){
 		case "HEADER":
-			return <a className="banner-ad" href={`https://ads.studentmedia.ucla.edu/www/delivery/ck.php?n=a322f0ab&amp;cb=INSERT_RA NDOM_NUMBER_HERE`} target='_blank'>
+			return <a className="banner-ad" href={`http://ucu.org`} target='_blank'>
 				<img src={`https://ads.studentmedia.ucla.edu/www/delivery/avw.php?zoneid=81&amp;cb=${rand}&amp;n=abdc3f10`} border='0' alt='' /></a>;
 		case "OPINION":
-			return <><br></br><br></br><br></br><a className="banner-ad" href={`http://ads.studentmedia.ucla.edu/www/delivery/ck.php?n=a322f0ab&amp;cb=${rand}`} target='_blank'><img src={`http://ads.studentmedia.ucla.edu/www/delivery/avw.php?zoneid=82&amp;cb=${rand}&amp;n=a322f0ab`} border='0' alt='' /></a></>
+			return <a className="banner-ad" href={`http://cancer.ucla.edu/swimacrossamerica`} target='_blank'>
+				<img src={`http://ads.studentmedia.ucla.edu/www/delivery/avw.php?zoneid=82&amp;cb=${rand}&amp;n=a322f0ab`} border='0' alt='' /></a>
 		default:
 			return null
 	}

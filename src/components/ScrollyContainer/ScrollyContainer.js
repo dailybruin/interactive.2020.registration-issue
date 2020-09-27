@@ -24,7 +24,7 @@ class ScrollyContainer extends React.Component {
         let offsetTop  = this.instance.getBoundingClientRect().top;
         let offsetBottom = this.instance.getBoundingClientRect().bottom; 
         //var scrollPercentage = (document.documentElement.scrollTop + document.body.scrollTop) / (document.documentElement.scrollHeight - document.documentElement.clientHeight);
-        var scrollPercentage =  (-offsetTop / (offsetBottom - offsetTop) + 0.13) < 0.04 ? 0.04 : (-offsetTop / (offsetBottom - offsetTop) + 0.13); 
+        var scrollPercentage =  (-offsetTop / (offsetBottom - offsetTop)) + 0.08 < 0.04 ? 0.04 : (-offsetTop / (offsetBottom - offsetTop) + 0.08); 
         //console.log(scrollPercentage)
         // Length to offset the dashes
         var drawLength = pathLength * (scrollPercentage - 0.03);

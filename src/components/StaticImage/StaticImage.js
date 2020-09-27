@@ -47,9 +47,14 @@ class StaticImage extends React.Component {
                 align = 'left';
                 break;
           }
-        return(
+        if (this.props.section == "OPINION" && this.props.imageUrl == "water_right") {
+            return (<></>)
+        }
+        else {
+            return(
             <Image className='static_image' src={source} align={align}/>
         )
+            }
     }
 }
 export default StaticImage;
