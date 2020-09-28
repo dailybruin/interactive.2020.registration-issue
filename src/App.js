@@ -22,9 +22,9 @@ const section_names = [
   "SPORTS",
   "ARTS",
   "OPINION",
+  "THE_QUAD",
   "MULTIMEDIA",
   "PRIME",
-  "THE_QUAD"
 ];
 
 function initializeReactGA() {
@@ -70,7 +70,7 @@ function App (){
         <div style={{position: "absolute", height: "100%", width: "100%", backgroundColor: "#80ADD6", zIndex: -99}}></div>
         <ScrollyContainer/>
         <Anchor id='stories'/>
-        {Object.keys(data).map(x => section_names.includes(x) ? // if x is one of the sections...
+        {section_names.map(x => data[x] ? // if x is one of the sections...
         <div style={{marginBottom: "200px", width: "100%", position: "relative"}}>
           <StaticImage imageUrl={"water_right"} section={x.replace("_", " ")}/>
           <Section key={x} section={x.replace("_", " ")} objects={data[x]}/>
